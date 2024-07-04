@@ -24,7 +24,7 @@ footer:
   builtUpTime: 2024-05-28
 
 comment:
-  enable: true
+  enable: false
   type: giscus
 
 giscus:
