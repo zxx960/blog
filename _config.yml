@@ -103,3 +103,8 @@ theme: sea
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+algolia:
+  applicationID: '0DHXKB7VNK'
+  apiKey: '51f5cd66e350947baf3c0fa822e925a1'
+  indexName: 'My First Application'
+  chunkSize: 5000
