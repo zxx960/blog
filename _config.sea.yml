@@ -45,6 +45,6 @@ search:
 
 # Docsearch https://docsearch.algolia.com/apply/
 algolia:
-  appId: 0CW5VEEW04
-  apiKey: 8fb91b15420174fa4f1e623c625d48a9
+  appId: 0DHXKB7VNK
+  apiKey: 29d4859c46ab669ab7c962fce6bebe81
   indexName: https://www.zhuxiuxiang.com/
