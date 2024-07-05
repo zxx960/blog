@@ -38,3 +38,13 @@ giscus:
   emitmetadata: "0"
   inputposition: bottom
   loading: lazy
+
+search:
+  enable: true # 是否启用
+  type: algolia
+
+# Docsearch https://docsearch.algolia.com/apply/
+algolia:
+  appId: 0CW5VEEW04
+  apiKey: 8fb91b15420174fa4f1e623c625d48a9
+  indexName: https://www.zhuxiuxiang.com/
