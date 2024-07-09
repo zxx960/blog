@@ -42,9 +42,3 @@ giscus:
 search:
   enable: true # 是否启用
   type: algolia
-
-# Docsearch https://docsearch.algolia.com/apply/
-algolia:
-  applicationID: 'VKTN68PL6L'
-  apiKey: '5f5fdf04f079fb5d7aa60a0d08c18b53'
-  indexName: 'zhuxiuxiang'

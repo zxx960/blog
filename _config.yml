@@ -104,13 +104,17 @@ theme: sea
 deploy:
   type: ''
 algolia:
-  applicationID: 'VKTN68PL6L'
-  apiKey: '5f5fdf04f079fb5d7aa60a0d08c18b53'
-  indexName: 'zhuxiuxiang'
+  appId: "VKTN68PL6L"
+  apiKey: "5f5fdf04f079fb5d7aa60a0d08c18b53"
+  adminApiKey: "5632556f2b581c8436575991440a7d25"
+  indexName: "zhuxiuxiang"
   chunkSize: 5000
   fields:
-    - title
-    - date
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
     - permalink
-    - excerpt
-    - content
+    - photos
+    - slug
+    - tags
+    - title
