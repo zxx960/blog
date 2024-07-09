@@ -104,7 +104,13 @@ theme: sea
 deploy:
   type: ''
 algolia:
-  applicationID: '0DHXKB7VNK'
-  apiKey: '51f5cd66e350947baf3c0fa822e925a1'
-  indexName: 'My First Application'
+  applicationID: 'VKTN68PL6L'
+  apiKey: '5f5fdf04f079fb5d7aa60a0d08c18b53'
+  indexName: 'zhuxiuxiang'
   chunkSize: 5000
+  fields:
+    - title
+    - date
+    - permalink
+    - excerpt
+    - content
