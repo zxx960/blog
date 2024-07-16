@@ -29,7 +29,7 @@ function generateQRCode() {
 ```
 
 ### 引入本地文件
-[下载 html2canvas.js](../assets/html2canvas.js)
+<a download href='../assets/html2canvas.js'>下载 html2canvas</a>
 ```javascript
 import html2canvas from '@/utils/html2canvas.js'
 
