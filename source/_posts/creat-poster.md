@@ -1,5 +1,5 @@
 ---
-title: 使用html2canvas生成海报
+title: 使用html2canvas生成带二维码的海报
 date: 2024-07-16 15:29:45
 categories:
   - 编程
