@@ -2,9 +2,9 @@
 title: 使用S3 Browser管理Cloudflare R2存储桶
 date: 2024-07-01 12:29:45
 categories:
-  - git
+  - 工具
 tags:
-  - git
+  - 工具
 ---
 
 Cloudflare的R2很好用，但是网页端不能上传大于300m的文件，它是兼容AWS S3的那就用S3的方法去管理他。
@@ -15,9 +15,9 @@ Display Name任意填写即可，Account type选择S3 Compatible Storage，即�
 ### 1填写S3 API
 REST Endpotin对应的是S3 API的值，但是不能整个填写进去。
 
-![](../assets/cloudflare.jpg)
-
 比如网页端显示的S3 API为：
+
+![](../assets/cloudflare5.png)
 
 ```bash
 https://xxxxxxxxxxxxxxxxxxx.r2.cloudflarestorage.com/tamabox
@@ -34,12 +34,14 @@ https://xxxxxxxxxxxxxxxxxxx.r2.cloudflarestorage.com
 AK和SK是创建令牌的时候提供的，如果忘记了就没救了，重新申请一个令牌
 
 ### 3创建令牌
+![](../assets/cloudflare1.png)
+
 
 ![](../assets/cloudflare2.png)
 
 ### 4选择管理员权限
 
-![](../assets/cloudflare3.jpg)
+![](../assets/cloudflare3.png)
 
 ### 5创建成功
 建议保存到本地，因为只会显示一次
