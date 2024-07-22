@@ -7,33 +7,7 @@ tags:
   - element
 ---
 
-收集一些常用的校验规则
-
-```javascript
-<el-form-item
-  label="age"
-  prop="age"
-  :rules="[
-    { required: true, message: 'age is required' },
-    { validator: validateEmail, trigger: 'change' },
-  ]"
->
-</el-form-item>
-
-```
-
-```javascript
-function submitForm(formEl) {
-  if (!formEl) return;
-  formEl.validate((valid) => {
-    if (valid) {
-      console.log("submit!");
-    } else {
-      console.log("error submit!");
-    }
-  });
-}
-```
+#### 常用的校验方法
 
 ```javascript
 //校验邮箱，不需要校验空值
@@ -95,5 +69,35 @@ function validatePositiveFloat(rule, value, callback) {
       callback();
     }
   }
+}
+```
+
+#### 使用方法
+
+```javascript
+<el-form-item
+  label="age"
+  prop="age"
+  :rules="[
+    { required: true, message: 'age is required' },
+    { validator: validateEmail, trigger: 'change' },
+  ]"
+>
+</el-form-item>
+
+```
+
+#### 提交前校验
+
+```javascript
+function submitForm(formEl) {
+  if (!formEl) return;
+  formEl.validate((valid) => {
+    if (valid) {
+      console.log("submit!");
+    } else {
+      console.log("error submit!");
+    }
+  });
 }
 ```
