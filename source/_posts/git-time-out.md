@@ -25,6 +25,14 @@ git config --global https.proxy https://127.0.0.1:7890
 
 ![](../assets/微信截图_20240704194250.png)
 
+恢复git代理到默认值：
+
+```bash
+git config --global --unset http.proxy
+
+git config --global --unset https.proxy
+```
+
 ### ps
 
 注意clash端口旁边的A要关掉（是可以点击的，让其置灰），clash默认随机开放端口的，要让他固定下来，然后让git走这个端口即可。
