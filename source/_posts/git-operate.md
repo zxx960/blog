@@ -29,13 +29,12 @@ git fetch --tags -f
 
 ### 合并指定commit
 ```bash
-git log  #查看提交的日志，复制要合并的那个分支的commit id(简略ID-前8位数)
+查看提交的日志，复制要合并的那个分支的commit id(SHA)
 
-git checkout  #切换到要合并的分支上
+切换到要合并的分支上
 
 git cherry-pick commitId  #提交该commit到当前分支
 
-git push  #推送到B分支远程仓库
 ```
 
 
